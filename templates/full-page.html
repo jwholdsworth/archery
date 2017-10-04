@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>{{title}}</title>
+    </head>
+
+    <body>
+      <table>
+        <tr>
+          <th>Venue</th>
+          <th>Start Date</th>
+        </tr>
+      {{#dbresult}}
+        <tr>
+          <td>{{venue}}</td>
+          <td>{{start_date}}</td>
+        </tr>
+      {{/dbresult}}
+      </table>
+    </body>
+</html>
